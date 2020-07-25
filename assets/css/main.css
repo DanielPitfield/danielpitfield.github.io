@@ -2958,6 +2958,16 @@ input, select, textarea {
 			font-size: 0.6em;
 		}
 
+		/* Projects - 'Live Demo' and 'View Code' buttons */
+		a.button.small.icon.solid.fa-code,
+		a.button.small.icon.solid.fa-play {
+			margin-bottom:2em;
+		}
+
+		a.button.small.icon.solid.fa-code {
+			margin-left:5px;
+		}
+
 		input[type="submit"].large,
 		input[type="reset"].large,
 		input[type="button"].large,
@@ -2988,6 +2998,34 @@ input, select, textarea {
 				padding: 0;
 			}
 
+			/* At this screen width, the 'Projects' section is 1 project wide */
+			a.button.small.icon.solid.fa-code,
+			a.button.small.icon.solid.fa-play {
+				width: 47.5%; /* Set widths to near half (accounting for padding) of parent container */
+			}
+
+			/* Disable 'Live Demo' button of 'Crime Mapper' project */
+			#live_crime_mapper {
+				pointer-events: none;
+				/* Also add disabled appearance here */
+			}
+
+		}
+
+		@media screen and (max-width: 736px) and (min-width: 480px) {
+			/* At this screen width, the 'Projects' section is 2 projects wide */
+			a.button.small.icon.solid.fa-code,
+			a.button.small.icon.solid.fa-play {
+				display: block; /* Stack the project buttons on top of each other */
+			}
+
+			a.button.small.icon.solid.fa-play {
+				margin-block-end: 0.5em; /* Reduce gap between buttons */
+			}
+
+			a.button.small.icon.solid.fa-code {
+				margin-left: 0px; /* Remove margin */
+			}
 		}
 
 /* Features */
@@ -3379,7 +3417,7 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
-		padding: 3.5em 0 3em 0 ;
+		padding: 3.5em 0 3em 0; /* Padding of first section */
 	}
 
 		#banner .inner {
