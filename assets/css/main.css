@@ -2485,14 +2485,14 @@ input, select, textarea {
 			padding-left: 0.25em;
 		}
 
-	ul {
+	.tag_group {
 		list-style: none;
 		list-style-type: none;
 		margin: 0 0 0.75em 0;
 		padding: 0;
 	}
 
-		ul li {
+		.tags {
 			background: black;
 			margin: 0 0 0.25em 0;
 			padding: 3px 10px;
@@ -2676,6 +2676,7 @@ input, select, textarea {
 /* Contact */
 
 	ul.contact {
+		margin-top: 1em;
 		list-style: none;
 		padding: 0;
 	}
