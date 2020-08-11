@@ -258,18 +258,12 @@ input, select, textarea {
 		font-size:80%;
 	}
 
-	p strong {
-		font-weight: normal;
-		font-style: italic;
-	}
-
 	h1, h2, h3, h4, h5, h6 {
 		color: #ffffff;
 		font-family: Raleway, Helvetica, sans-serif;
 		font-weight: 700;
-		letter-spacing: 0.1em;
+		letter-spacing: 0.025em;
 		margin: 0;
-		text-transform: uppercase;
 	}
 
 	h3 {
@@ -2493,8 +2487,8 @@ input, select, textarea {
 		}
 
 	.social_tag {
-		margin: 0 0 1em 0;
-		padding: 30px 20px;
+		margin: 0 0.4em 0 0;
+		padding: 0.3em;
 	}
 
 	.tag_group {
@@ -2688,6 +2682,7 @@ input, select, textarea {
 /* Contact */
 	#social {
 		display: flex;
+		margin-left: 1em;
 	}
 
 	ul.contact {
@@ -3456,6 +3451,14 @@ input, select, textarea {
 			width: 55em;
 		}
 
+		#banner .inner .heading_group {
+			display: flex;
+			align-items: center;
+			border-bottom: solid 2px rgba(255, 255, 255, 0.125);
+			margin-bottom: 0.8em;
+			padding-bottom: 1em;
+		}
+
 		#banner .logo {
 			-moz-transition: opacity 2s ease, -moz-transform 1s ease;
 			-webkit-transition: opacity 2s ease, -webkit-transform 1s ease;
@@ -3499,10 +3502,7 @@ input, select, textarea {
 			-ms-filter: blur(0);
 			filter: blur(0);
 			opacity: 1;
-			border-bottom: solid 2px rgba(255, 255, 255, 0.125);
 			font-size: 2.25em;
-			margin-bottom: 0.8em;
-			padding-bottom: 0.4em;
 		}
 
 		#banner p {
@@ -3527,8 +3527,7 @@ input, select, textarea {
 			font-size: 1em;
 			font-weight: 200;
 			letter-spacing: 0.1em;
-			line-height: 2;
-			text-transform: uppercase;
+			line-height: 1.2;
 		}
 
 		@media screen and (max-width: 1280px) {
