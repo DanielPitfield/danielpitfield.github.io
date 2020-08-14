@@ -3030,12 +3030,6 @@ input, select, textarea {
 				width: 47.5%; /* Set widths to near half (accounting for padding) of parent container */
 			}
 
-			/* Disable 'Live Demo' button of 'Crime Mapper' project */
-			#live_crime_mapper {
-				pointer-events: none;
-				/* Also add disabled appearance here */
-			}
-
 		}
 
 		@media screen and (max-width: 736px) and (min-width: 480px) {
