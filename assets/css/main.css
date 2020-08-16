@@ -3441,7 +3441,7 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
-		padding: 3.5em 0 3em 0; /* Padding of first section */
+		padding: 3.5em 0 1.5em 0; /* Padding of first section */
 	}
 
 		#banner .inner {
@@ -3524,7 +3524,7 @@ input, select, textarea {
 			font-family: Raleway, Helvetica, sans-serif;
 			font-size: 1em;
 			font-weight: 200;
-			letter-spacing: 0.1em;
+			letter-spacing: 0.05em;
 			line-height: 1.2;
 		}
 
@@ -4075,7 +4075,7 @@ input, select, textarea {
 /* Footer */
 
 	#footer .inner {
-		padding: 5em 0 3em 0 ;
+		padding: 1em 0 5em 0 ;
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
