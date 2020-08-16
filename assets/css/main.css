@@ -2994,6 +2994,10 @@ input, select, textarea {
 			margin-left:5px;
 		}
 
+		#portfolio_view_code {
+			margin-left: 0px;
+		}
+
 		input[type="submit"].large,
 		input[type="reset"].large,
 		input[type="button"].large,
