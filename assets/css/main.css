@@ -2729,6 +2729,12 @@ input, select, textarea {
 				margin-top: 0;
 			}
 
+		@media screen and (max-width: 980px) {
+			ul.contact li:first-child {
+				margin-top: 1em;
+			}
+		}
+
 		@media screen and (max-width: 736px) {
 
 			ul.contact li {
@@ -3693,7 +3699,7 @@ input, select, textarea {
 
 	.wrapper {
 		background-color: #2e3141;
-		margin: 6.5em 0;
+		margin: 6.5em 0 4.5em 0;
 		position: relative;
 	}
 
@@ -3748,7 +3754,7 @@ input, select, textarea {
 		}
 
 		.wrapper .inner {
-			padding: 3em 0 1em 0 ;
+			padding: 0;
 			margin: 0 auto;
 			width: 55em;
 		}
@@ -4075,7 +4081,7 @@ input, select, textarea {
 /* Footer */
 
 	#footer .inner {
-		padding: 1em 0 5em 0 ;
+		padding: 3em 0 5em 0 ;
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
