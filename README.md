@@ -9,4 +9,4 @@ Includes links to my GitHub profile and my CV
 * Noughts and Crosses
 * Video Game Sales (Data Analysis)
 
-The website presents links to live/hosted demos of these projects and to the relevant GitHub repositories
+The website presents links to live/hosted demos of these projects and to their corresponding GitHub repositories
